@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://cui7933.github.io</id>
+    <id>https://lihaile.cn</id>
     <title>厉害了</title>
-    <updated>2021-09-01T14:58:40.731Z</updated>
+    <updated>2021-09-01T15:33:08.220Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://cui7933.github.io"/>
-    <link rel="self" href="http://cui7933.github.io/atom.xml"/>
+    <link rel="alternate" href="https://lihaile.cn"/>
+    <link rel="self" href="https://lihaile.cn/atom.xml"/>
     <subtitle>网络资源收藏</subtitle>
-    <logo>http://cui7933.github.io/images/avatar.png</logo>
-    <icon>http://cui7933.github.io/favicon.ico</icon>
+    <logo>https://lihaile.cn/images/avatar.png</logo>
+    <icon>https://lihaile.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, 厉害了</rights>
     <entry>
         <title type="html"><![CDATA[MAC软件资源]]></title>
-        <id>http://cui7933.github.io/post/mac-ruan-jian-zi-yuan/</id>
-        <link href="http://cui7933.github.io/post/mac-ruan-jian-zi-yuan/">
+        <id>https://lihaile.cn/post/mac-ruan-jian-zi-yuan/</id>
+        <link href="https://lihaile.cn/post/mac-ruan-jian-zi-yuan/">
         </link>
         <updated>2021-09-01T13:28:18.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[影视资源]]></title>
-        <id>http://cui7933.github.io/post/厉害网址收藏/</id>
-        <link href="http://cui7933.github.io/post/厉害网址收藏/">
+        <id>https://lihaile.cn/post/厉害网址收藏/</id>
+        <link href="https://lihaile.cn/post/厉害网址收藏/">
         </link>
         <updated>2021-09-01T12:59:41.000Z</updated>
     </entry>
