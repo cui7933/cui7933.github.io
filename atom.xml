@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lihaile.cn</id>
     <title>厉害了</title>
-    <updated>2021-09-01T15:35:10.450Z</updated>
+    <updated>2021-09-02T02:19:40.104Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lihaile.cn"/>
     <link rel="self" href="https://lihaile.cn/atom.xml"/>
@@ -11,6 +11,13 @@
     <icon>https://lihaile.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, 厉害了</rights>
     <entry>
+        <title type="html"><![CDATA[一些文案]]></title>
+        <id>https://lihaile.cn/post/yi-xie-wen-an/</id>
+        <link href="https://lihaile.cn/post/yi-xie-wen-an/">
+        </link>
+        <updated>2021-09-02T02:12:56.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[MAC软件资源]]></title>
         <id>https://lihaile.cn/post/mac-ruan-jian-zi-yuan/</id>
         <link href="https://lihaile.cn/post/mac-ruan-jian-zi-yuan/">
@@ -18,10 +25,24 @@
         <updated>2021-09-01T13:28:18.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[影视资源]]></title>
+        <title type="html"><![CDATA[厉害网址收藏]]></title>
         <id>https://lihaile.cn/post/厉害网址收藏/</id>
         <link href="https://lihaile.cn/post/厉害网址收藏/">
         </link>
         <updated>2021-09-01T12:59:41.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="在线影视">在线影视</h1>
+<p><a href="https://www.kpkuang.com/" target="_blank">看片狂人</a></p>
+<p><a href="http://www.zhenbuka3.com/" target="_blank">真不卡影院</a></p>
+<p><a href="https://www.uump4.net/" target="_blank">悠悠mp4</a></p>
+<p><a href="http://www.dmdm2020.com/" target="_blank">多咪动漫</a></p>
+<p><a href="https://www.51zxw.net/" target="_blank">51自学</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="在线影视">在线影视</h1>
+<p><a href="https://www.kpkuang.com/" target="_blank">看片狂人</a></p>
+<p><a href="http://www.zhenbuka3.com/" target="_blank">真不卡影院</a></p>
+<p><a href="https://www.uump4.net/" target="_blank">悠悠mp4</a></p>
+<p><a href="http://www.dmdm2020.com/" target="_blank">多咪动漫</a></p>
+<p><a href="https://www.51zxw.net/" target="_blank">51自学</a></p>
+]]></content>
     </entry>
 </feed>
