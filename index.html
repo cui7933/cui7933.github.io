@@ -1,322 +1,301 @@
-
+<!DOCTYPE html>
 <html>
-<head lang="zh">
-        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
-        <meta content="yes" name="apple-mobile-web-app-capable"/>
-        <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
-        <meta content="telephone=no" name="format-detection"/>
-        <meta name="renderer" content="webkit">
-    <title>厉害了</title>
-<link href="https://lihaile.cn/styles/main.css" type="text/css" rel="stylesheet"/>
-<script type="text/javascript" src="https://lihaile.cn/media/scripts/jquery.js"></script>
-<script type="text/javascript" src="https://lihaile.cn/media/scripts/basic.js"></script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
-
-  </head>
-
-  <body>
-    <div class="header">
-      <div class="logo_title">
-		  
-        <div class="title animated fadeInDown"><img src="https://lihaile.cn/images/avatar.png?v=1630552414923"/>
-
-          <h1 title="厉害了" class="weaklink"><a href="/">厉害了</a>
-
-          </h1>
-
-          <div class="navbar weaklink">
-            <div class="normal_nav">
-
-<div class="bitcron_nav_container">
-
-
-  <div class="bitcron_nav">
-    <div class="mixed_site_nav_wrap site_nav_wrap">
-		
-      <ul class="mixed_site_nav site_nav sm sm-base">
- 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a>
-
-  </li>
- 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="https://lihaile.cn/post/li-hai-wang-zhi-shou-cang" class="selected active current nav__item" >书签</a>
-
-  </li>
- 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a>
-
-  </li>
- 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/post/about" class="selected active current nav__item" >关于</a>
-
-  </li>
- 
-
-      </ul>
-
-      <div class="clear clear_nav_inline_end"></div>
-
-    </div>
-
-  </div>
-
-
-
-  <div class="clear clear_nav_end"></div>
-
-</div>
-
-            </div>
-
-            <div class="hamberger"><i class="fa fa-bars"></i>
-<i class="fa fa-times"></i>
-
-            </div>
-
-          </div>
-
+<head>
+<meta charset="utf-8"> 
+    <title>厉害网址收藏</title>
+    <meta name="keywords" content="厉害网址收藏"/>
+    <meta name="description" content="收藏一些比较厉害、有趣、有用的网址。邮箱ace1229@qq.com"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdn.bootcss.com/zui/1.8.1/css/zui.min.css">
+<script src="https://cdn.bootcss.com/zui/1.8.1/lib/jquery/jquery.js"></script>
+<script src="https://cdn.bootcss.com/zui/1.8.1/js/zui.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<!--  www.lihaile.cn  -->
+<body>
+<header>
+    <div class="container" style="padding-right: 0px;padding-left: 0px;">
+        <div class="main">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="images/ico.png">
+                    <span>厉害网址收藏</span>
+                </a>
+            </h1>
+            <!--
+            <nav class="nav">
+                <ul>
+                    <li><a href="https://www.lihaile.cn" target="_blank"></a>555</li>
+                </ul>
+            </nav>
+            <button class="nav-btn visible-xs visible-sm">
+                <span class="icon-line top"></span>
+                <span class="icon-line middle"></span>
+                <span class="icon-line bottom"></span>
+            </button>-->
         </div>
+	</div>
+	<div class="not_operational"></div>
+</header>
+<div id="content" data-customize="true" data-customtheme="true" class="default-bg">
+<div class="main-index">
+<div class="container content-box">
+	<section class="sousuo">
+	  <div class="search">
+		<div class="search-box">
+		  <img class="search-icon" src="images/logo_4.jpg">
+		  <input type="text" id="txt" class="search-input" placeholder="点击搜索">
+		  <button class="search-btn visible-sm visible-md visible-lg" id="search-btn">搜索</button>
+		  <i class="search-clear icon icon-remove-sign" style="display: none;"></i>
+		</div>
+		<!-- 搜索热词 -->
+		<div class="box search-hot-text" id="box" style="display: none;">
+		  <ul></ul>
+		</div>
+		<!-- 搜索引擎 -->
+		<div class="search-engine" style="display: none;">
+		  <div class="search-engine-head">
+			<strong class="search-engine-tit">选择默认搜索引擎：</strong>
+			<div class="search-engine-tool">搜索热词： <span id="hot-btn" class="off"></span></div>
+		  </div>
+		  <ul class="search-engine-list">
+		  </ul>
+		</div>
+	  </div>
+	</section>
+		<div class="row dh">
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">常用</strong></div>
+					
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.lihaile.cn" target="_blank">厉害</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="http://www.lihaile.cn" target="_blank">淘宝优惠券</a>
+					</div>
 
-      </div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.dy2018.com/" target="_blank">电影下载</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://music.zhuolin.wang/" target="_blank">音乐下载</a>
+					</div>
 
-      <div class="hidden_nav animated fadeInDown">
+					<div class="col-xs-4 mb-2">
+						<a href="http://ksxjj.88559995.com/" target="_blank">随机美女</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="http://www.dmdm2020.com/" target="_blank">多咪动漫</a>
+					</div>
 
-<div class="bitcron_nav_container">
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.jd.com/" target="_blank">京东</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.xiaomiyoupin.com/" target="_blank">小米有品</a>
+					</div>
+<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">阅读</strong></div>
+<div class="col-xs-4 mb-2">
+						<a href="http://wufazhuce.com/" target="_blank">一个</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						
+						<a href="https://www.toutiao.com/" target="_blank">今日头条</a>
+					</div>
 
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.51zxw.net/" target="_blank">51自学</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
 
-  <div class="bitcron_nav">
-    <div class="mixed_site_nav_wrap site_nav_wrap">
-      <ul class="mixed_site_nav site_nav sm sm-base">
-		  
-	
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
 
-  </li>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">购物</strong></div>
+<div class="col-xs-4 mb-2">
+						<a href="https://xiuxiu.web.meitu.com/main.html" target="_blank">在线美图</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						
+						<a href="http://tool.manmanbuy.com/HistoryLowest.aspx" target="_blank">历史价格</a>
+					</div>
 
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="https://lihaile.cn/post/li-hai-wang-zhi-shou-cang" class="selected active current nav__item" >书签</a>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
 
-  </li>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.aliyundrive.com/sign/in" target="_blank">阿里云盘</a>
+					</div>
+<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">资源</strong></div>
+<div class="col-xs-4 mb-2">
+						<a href="https://html5up.net/" target="_blank">网页源码</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+					
+						<a href="https://www.btdx8.com/" target="_blank">高清电影</a>
+					</div>
 
+					<div class="col-xs-4 mb-2">
+						<a href="http://33.agilestudio.cn/" target="_blank">33台词</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.yugaopian.cn/" target="_blank">预告片世界</a>
+					</div>
 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.uump4.net/" target="_blank">悠悠mp4</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="http://www.zhenbuka3.com/" target="_blank">真不卡影院</a>
+					</div>
 
-  </li>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.kpkuang.com/" target="_blank">看片狂人</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.cilixiong.com/" target="_blank">磁力熊</a>
+					</div>
+<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">在线</strong></div>
+<div class="col-xs-4 mb-2">
+						<a href="https://www.huya.com/g/489" target="_blank">梦三直播</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						
+						<a href="https://space.bilibili.com/10040906/" target="_blank">四季萌芽</a>
+					</div>
 
+					<div class="col-xs-4 mb-2">
+						<a href="https://space.bilibili.com/28767705?from=search&seid=15879722740162568244" target="_blank">轻电科技</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/post/about" class="selected active current nav__item" >关于</a>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
 
-  </li>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">工具</strong></div>
+<div class="col-xs-4 mb-2">
+						<a href="http://www.1ppt.com/" target="_blank">第一PPT</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						
+						<a href="https://liuxingw.com/api/douyin/api.php?url=" target="_blank">抖音无水印</a>
+					</div>
 
+					<div class="col-xs-4 mb-2">
+						<a href="http://www.17dot.cn/" target="_blank">一键去水印</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://fapiao.bangnimang.net/#s" target="_blank">发票大师</a>
+					</div>
 
+					<div class="col-xs-4 mb-2">
+						<a href="https://etax.henan.chinatax.gov.cn/web/dzswj/taxclient/main_gzfw.html?PARAM=1001" target="_blank">定额发票</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://inv-veri.chinatax.gov.cn/" target="_blank">发票查询</a>
+					</div>
 
-
-
-      </ul>
-
-      <div class="clear clear_nav_inline_end"></div>
-
-    </div>
-
-  </div>
-
-
-
-  <div class="clear clear_nav_end"></div>
-
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank">待添加</a>
+					</div>
+				</div>
+			</div>
+				</div>
+			</div>
+		</div>
 </div>
 
-      </div>
-
-    </div>
-
-
-    <div class="main">
-      <div class="main-inner">
-
-<div class="content">
-
-
-
-
-
-
-  <div class="post_list" >
-
-	
-<div class="post">
-  <div class="post_title weaklink">
-    <h2><a href="https://lihaile.cn/post/yi-xie-wen-an/" >一些文案</a>
-    </h2>
-  </div>
-  <div class="post_content markdown"><div class="p_part"><p></p></div></div>
-  <div class="post_footer">
-    <div class="info weaklink"><i class="fa fa-clock-o"></i>
-<span class="date_info">2021-09-02</span>
-
-<i class="fa fa-bookmark-o"></i>
-	
-<span class="tags_info weaklink">
-	
-
-</span>
-
-
-    </div>
-
-  </div>
-
+<!--  www.lihaile.cn -->
 </div>
-	
-
-	
-<div class="post">
-  <div class="post_title weaklink">
-    <h2><a href="https://lihaile.cn/post/mac-ruan-jian-zi-yuan/" >MAC软件资源</a>
-    </h2>
-  </div>
-  <div class="post_content markdown"><div class="p_part"><p></p></div></div>
-  <div class="post_footer">
-    <div class="info weaklink"><i class="fa fa-clock-o"></i>
-<span class="date_info">2021-09-01</span>
-
-<i class="fa fa-bookmark-o"></i>
-	
-<span class="tags_info weaklink">
-	
-
-</span>
-
-
-    </div>
-
-  </div>
-
 </div>
-	
-	
-
-<div class="paginator pager pagination" >
-	
-  <div class="paginator_container pagination_container">
-	  
-	    								
-										
-	  
-
-
-
-    <div style="clear:both;height:0;"></div>
-
-
-  </div>
-
-</div>
-
-
-
-  </div>
-</div>
-
-
-
-      </div>
-
+<footer class="footer text-center bg-white">
+    <div class="container">
+		<span id="hitokoto">:D 获取中...</span>
     </div>
-
-    <div class="footer">
-<link href="https://lihaile.cn/styles/main.css" type="text/css" rel="stylesheet"/><div class="site_footer_wrap"><div class="site_footer">
-
-      <div class="mysocials"><div class="my_socials">
-		   
-			   
-    
-			   
-    
-			   
-    
-			   
-    
-</div><link href="https://lihaile.cn/styles/main.css" type="text/css" rel="stylesheet"/>
-
-      </div>
-
-      <div class="copyright">Powered by Gridea
-      </div>
-
-</div></div>
-
-    </div>
-
-
-<style type="text/css">a.back_to_top {
-    text-decoration: none;
-    position: fixed;
-    bottom: 40px;
-    right: 30px;
-    background: #f0f0f0;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    line-height: 36px;
-    font-size: 18px;
-    text-align: center;
-    transition-duration: .5s;
-    transition-propety: background-color;
-    display: none;
-}
-
-a.back_to_top span {
-    color: #888;
-}
-
-a.back_to_top:hover {
-    cursor: pointer;
-    background: #dfdfdf;
-}
-
-a.back_to_top:hover span {
-    color: #555;
-}
-
-@media print, screen and (max-width: 580px) {
-    .back_to_top {
-        display: none !important;
-    }
-}
-
-
-
-</style><a id="back_to_top" href="#" class="back_to_top"><span>△</span>
-</a>
-<script type="text/javascript" src="https://lihaile.cn/media/scripts/jquery.js"></script>
-
-<script>$(document).ready((function(_this) {
-  return function() {
-    var bt;
-    bt = $('#back_to_top');
-    if ($(document).width() > 480) {
-      $(window).scroll(function() {
-        var st;
-        st = $(window).scrollTop();
-        if (st > 30) {
-          return bt.css('display', 'block');
-        } else {
-          return bt.css('display', 'none');
-        }
-      });
-      return bt.click(function() {
-        $('body,html').animate({
-          scrollTop: 0
-        }, 800);
-        return false;
-      });
-    }
-  };
-})(this));
-</script>
-
+</footer>
+<div id="get-top" title="回到顶部" style="display: none;"><i class="icon icon-arrow-up"></i></div>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+<script src="js.js"></script>
+<script type="text/javascript" src="https://js.users.51.la/19916167.js"></script>
 </body>
-
 </html>
